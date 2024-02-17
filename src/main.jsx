@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import UploadAndDisplayImage from '/src/UploadAndDisplayImage'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <UploadAndDisplayImage/>
   </React.StrictMode>,
 )
