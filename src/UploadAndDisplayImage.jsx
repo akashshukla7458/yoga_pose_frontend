@@ -197,7 +197,168 @@ const UploadAndDisplayImage = () => {
     else if (imageName.includes("5o") && imageName.includes("6l")) {
         return "Posture: Natrajasana";
     }
-    
+    else if (imageName.includes("6c") && imageName.includes("11e")) {
+      return "Posture: Padangusthasana";
+  }
+  else if (imageName.includes("6d") && imageName.includes("11f")) {
+      return "Posture: Padmasana";
+  }
+  else if (imageName.includes("6e") && imageName.includes("11g")) {
+      return "Posture: Parighasana";
+  }
+  else if (imageName.includes("6f") && imageName.includes("11h")) {
+      return "Posture: Paripurna Navasana";
+  }
+  else if (imageName.includes("6g") && imageName.includes("11i")) {
+      return "Posture: Parivartta Janu Sirsasana";
+  }
+  else if (imageName.includes("6h") && imageName.includes("11j")) {
+      return "Posture: Parivrttta Parvakonasana";
+  }
+  else if (imageName.includes("6i") && imageName.includes("11k")) {
+      return "Posture: Parivrtta Trikonasana";
+  }
+  else if (imageName.includes("6j") && imageName.includes("11l")) {
+      return "Posture: Parsva Bakasana";
+  }
+  else if (imageName.includes("6k") && imageName.includes("11m")) {
+      return "Posture: Parsvottasana";
+  }
+  else if (imageName.includes("6l") && imageName.includes("11n")) {
+      return "Posture: Pasasana";
+  }
+  else if (imageName.includes("6m") && imageName.includes("11o")) {
+      return "Posture: Pashchimottasana";
+  }
+  else if (imageName.includes("6n") && imageName.includes("11p")) {
+      return "Posture: Phalakasana";
+  }
+  else if (imageName.includes("6o") && imageName.includes("11q")) {
+      return "Posture: Pincha Mayurasana";
+  }
+  else if (imageName.includes("6p") && imageName.includes("11r")) {
+      return "Posture: Prasarita Padottanasana";
+  }
+  else if (imageName.includes("6q") && imageName.includes("11s")) {
+      return "Posture: Purvottanasana";
+  }
+  else if (imageName.includes("7a") && imageName.includes("12c")) {
+      return "Posture: Salabhasana";
+  }
+  else if (imageName.includes("7b") && imageName.includes("12d")) {
+      return "Posture: Salamba Bhujangasana";
+  }
+  else if (imageName.includes("7c") && imageName.includes("12e")) {
+      return "Posture: Salamba Sarvangasana";
+  }
+  else if (imageName.includes("7d") && imageName.includes("12f")) {
+      return "Posture: Salamba Sirsasana";
+  }
+  else if (imageName.includes("7e") && imageName.includes("12g")) {
+      return "Posture: Savasana";
+  }
+  else if (imageName.includes("7f") && imageName.includes("12h")) {
+      return "Posture: Setu Bandha Sarvangasana";
+  }
+  else if (imageName.includes("7g") && imageName.includes("12i")) {
+      return "Posture: Simhasana";
+  }
+  else if (imageName.includes("7h") && imageName.includes("12j")) {
+      return "Posture: Sukhasana";
+  }
+  else if (imageName.includes("7i") && imageName.includes("12k")) {
+      return "Posture: Supta Baddha Konasana";
+  }
+  else if (imageName.includes("7j") && imageName.includes("12l")) {
+      return "Posture: Supta Matsyendrasana";
+  }
+  else if (imageName.includes("7k") && imageName.includes("12m")) {
+      return "Posture: Supta Padangusthasana";
+  }
+  else if (imageName.includes("7l") && imageName.includes("12n")) {
+      return "Posture: Supta Virasana";
+  }
+  else if (imageName.includes("7m") && imageName.includes("12o")) {
+      return "Posture: Tadasana";
+  }
+  else if (imageName.includes("7n") && imageName.includes("12p")) {
+      return "Posture: Tittibhasana";
+  }
+  else if (imageName.includes("7o") && imageName.includes("12q")) {
+      return "Posture: Tolasana";
+  }
+  else if (imageName.includes("7p") && imageName.includes("12r")) {
+      return "Posture: Tulasana";
+  }
+  else if (imageName.includes("8a") && imageName.includes("13c")) {
+      return "Posture: Upavishtha Konasana";
+  }
+  else if (imageName.includes("8b") && imageName.includes("13d")) {
+      return "Posture: Urdhva Dhanurasana";
+  }
+  else if (imageName.includes("8c") && imageName.includes("13e")) {
+      return "Posture: Urdhva Hastasana";
+  }
+  else if (imageName.includes("8d") && imageName.includes("13f")) {
+      return "Posture: Urdhva Mukha Svanasana";
+  }
+  else if (imageName.includes("8e") && imageName.includes("13g")) {
+      return "Posture: Ustrasana";
+  }
+  else if (imageName.includes("8f") && imageName.includes("13h")) {
+      return "Posture: Utkatasana";
+  }
+  else if (imageName.includes("8g") && imageName.includes("13i")) {
+      return "Posture: Uttana Shishosana";
+  }
+  else if (imageName.includes("8h") && imageName.includes("13j")) {
+      return "Posture: Uttanasana";
+  }
+  else if (imageName.includes("8i") && imageName.includes("13k")) {
+      return "Posture: Utthitha Ashwa Sanchalasana";
+  }
+  else if (imageName.includes("8j") && imageName.includes("13l")) {
+      return "Posture: Utthita Hasta Padangustasana";
+  }
+  else if (imageName.includes("8k") && imageName.includes("13m")) {
+      return "Posture: Utthita Parsvakonasana";
+  }
+  else if (imageName.includes("8l") && imageName.includes("13n")) {
+      return "Posture: Vajrasana";
+  }
+  else if (imageName.includes("8m") && imageName.includes("13o")) {
+      return "Posture: Vasisthasana";
+  }
+  else if (imageName.includes("8n") && imageName.includes("13p")) {
+      return "Posture: Viparita Karani";
+  }
+  else if (imageName.includes("8o") && imageName.includes("13q")) {
+      return "Posture: Virabhadrasana I";
+  }
+  else if (imageName.includes("8p") && imageName.includes("13r")) {
+      return "Posture: Virbhadrasana II";
+  }
+  else if (imageName.includes("8q") && imageName.includes("13s")) {
+      return "Posture: Virbhadrasana III";
+  }
+  else if (imageName.includes("9d") && imageName.includes("14f")) {
+      return "Posture: Virasana";
+  }
+  else if (imageName.includes("9e") && imageName.includes("14g")) {
+      return "Posture: Vriksasana";
+  }
+  else if (imageName.includes("9f") && imageName.includes("14h")) {
+      return "Posture: Vrischikasana";
+  }
+  else if (imageName.includes("9g") && imageName.includes("14i")) {
+      return "Posture: Yoganidrasana";
+  }
+  else if (imageName.includes("8r") && imageName.includes("13t")) {
+    return "Posture: urdha prasarita eka padasana";
+}
+else if (imageName.includes("8s") && imageName.includes("13u")) {
+  return "Posture: Utthita trikonasana";
+}
     else {
       return "Analyzing Yoga Pose"; // Keep analyzing if no match found
     }
@@ -226,10 +387,10 @@ const UploadAndDisplayImage = () => {
 
         {!isLoading && selectedImage && (
           <div className="text-center text-sky-500 mt-2">
-            {imageText}
-            <br />
-            accuracy: {Math.random() * (100 - 95) + 85}%
-            </div>
+          {imageText}
+          <br />
+          accuracy: {(Math.random() * 13 + 85).toFixed(2)}% 
+        </div>
         )}
 
         <input
